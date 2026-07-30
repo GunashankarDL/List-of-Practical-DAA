@@ -1,3 +1,4 @@
+Bubble Sort
 def bubble_sort(arr):
     n = len(arr)
 
@@ -12,3 +13,10 @@ print("Before sorting:",arr)
 
 bubble_sort(arr)
 print("After sorting:",arr)
+ Time Complexity:
+# Best Case    : O(n)
+# Average Case : O(n^2)
+# Worst Case   : O(n^2)
+#
+# Space Complexity:
+# O(1)
