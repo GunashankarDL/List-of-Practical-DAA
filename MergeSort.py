@@ -1,3 +1,4 @@
+Merge Sort
 def merge(arr, left, mid, right):
     temp = []
     i = left
@@ -34,3 +35,10 @@ arr = [10,8,9,3,5,2]
 print("Before sorting:", arr)
 merge_sort(arr, 0, len(arr) - 1)
 print("After sorting:", arr)
+# Time Complexity:
+# Best Case    : O(n log n)
+# Average Case : O(n log n)
+# Worst Case   : O(n log n)
+#
+# Space Complexity:
+# O(n)
