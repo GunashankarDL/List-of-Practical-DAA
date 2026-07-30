@@ -15,10 +15,11 @@ arr = [28,18,31,12,7,2]
 print("Before sorting:", arr)
 selection_sort(arr)
 print("After sorting:", arr)
+# Selection Sort
 # Time Complexity:
-# Best Case    : O(n)
+# Best Case    : O(n^2)
 # Average Case : O(n^2)
 # Worst Case   : O(n^2)
 #
 # Space Complexity:
-# O(1
+# O(1)
