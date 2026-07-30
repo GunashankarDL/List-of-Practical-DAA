@@ -1,3 +1,4 @@
+Insertion Sort
 def insertion_sort(arr):
     n = len(arr)
 
@@ -14,3 +15,10 @@ arr = [10,5,6,8,2,3]
 print("Before sorting:", arr)
 insertion_sort(arr)
 print("After sorting:", arr)
+# Time Complexity:
+# Best Case    : O(n)
+# Average Case : O(n^2)
+# Worst Case   : O(n^2)
+#
+# Space Complexity:
+# O(1)
