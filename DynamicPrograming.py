@@ -1,4 +1,4 @@
-
+Dynamic Programing
 def matrix_chain(p,n):
     # Create DP table
     dp = [[0 for _ in range(n + 1)] for _ in range(n + 1)]
@@ -27,3 +27,10 @@ def matrix_chain(p,n):
 p = [1,3,4,5]
 n = len(p) - 1
 print("Minimum number of multiplications is:", matrix_chain(p, n))
+
+# Time Complexity:
+# Best Case    : O(n^3)
+# Average Case : O(n^3)
+# Worst Case   : O(n^3)
+
+# Space Complexity:O(n^2)
