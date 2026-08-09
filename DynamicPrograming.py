@@ -1,3 +1,4 @@
+INF = float('inf')
 
 def matrix_chain(p,n):
     # Create DP table
