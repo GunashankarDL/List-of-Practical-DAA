@@ -1,3 +1,4 @@
+Interactive Sort
 def iterative_factorial(n):
     fact = 1
 
@@ -9,3 +10,10 @@ arr = [5, 3, 8, 4, 2]
 n = 5
 result = iterative_factorial(n)
 print(f"Factorial of {n} is: {result}")
+# Time Complexity:
+# Best Case    : O(n)
+# Average Case : O(n)
+# Worst Case   : O(n)
+#
+# Space Complexity:
+# O(1)
