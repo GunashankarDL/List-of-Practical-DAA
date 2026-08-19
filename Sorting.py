@@ -1,11 +1,6 @@
-
-from encodings.punycode import insertion_sort
-
-from MergeSort import merge_sort
-from OneDrive.Documents.BubbleSort import bubble_sort
-from QuickSort import quick_sort
-from SelectionSort import selection_sort
-
+def print_array(arr):
+    print("\nSorted Array:")
+    print(*arr)
 
 def main():
     n = int(input("Enter number of elements: "))
@@ -45,11 +40,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-arr = [20,10,8,15,2,1]
-print("Before sorting:", arr)
-bubble_sort(arr)
-selection_sort(arr)
-insertion_sort(arr)
-merge_sort(arr, 0, len(arr) - 1)
-quick_sort(arr, 0, len(arr) - 1)
-print("After sorting:", arr)
